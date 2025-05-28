@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <RootNamespace>Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\Booking\src\Booking\Booking.csproj" />
+    <ProjectReference Include="..\..\Modules\Flight\src\Flight\Flight.csproj" />
+    <ProjectReference Include="..\..\Modules\Identity\src\Identity\Identity.csproj" />
+    <ProjectReference Include="..\..\Modules\Passenger\src\Passenger\Passenger.csproj" />
+  </ItemGroup>
+
+</Project>
